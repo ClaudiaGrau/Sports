@@ -1,0 +1,80 @@
+nav {
+    position: fixed;
+}
+
+header {
+    position: relative;
+    top: 100px;
+}
+
+body {
+    font-family: "Garamond", sans-serif;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+}
+
+h2 {
+    padding: 20px 0 0 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: beige;
+}    
+
+nav li {
+    font-size: 22px;
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.overview {
+    width: 100%;
+}
+
+#first-page {
+    background-color: white;
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+.biathlon {
+    width: 600px;
+    margin: 20px auto 20px auto;
+    padding-top: 20px;
+}
+
+.riding-bike {
+    width: 600px;
+    margin: 20px auto 20px auto;
+    padding-top: 20px;
+}
+
+
+ .biathlon figure, .overview figure, .riding-bike figure, figcaption {
+    text-align: center;
+    /*display: inline-block;*/
+}
+
+.biathlon img  {
+    border: 2px solid blue;
+    border-radius: 5%;
+}
+
+.riding-bike img {
+    border: 2px solid green;
+    border-radius: 5%;
+}
+
+ .biathlon   {
+    background-color: azure;
+}
+
+.riding-bike {
+    background-color: palegreen;
+}
